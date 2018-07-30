@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C383AC3A11C0EB5756732B1 /* Pods_TakePhotosAndRecordVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E7D28A2FF2391C87FA9C99 /* Pods_TakePhotosAndRecordVideo.framework */; };
+		A0063957210F3E89005634B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0063956210F3E89005634B7 /* AppDelegate.m */; };
+		A006395A210F3E8A005634B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0063959210F3E8A005634B7 /* ViewController.m */; };
+		A006395D210F3E8A005634B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A006395B210F3E8A005634B7 /* Main.storyboard */; };
+		A006395F210F3E8C005634B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A006395E210F3E8C005634B7 /* Assets.xcassets */; };
+		A0063962210F3E8C005634B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0063960210F3E8C005634B7 /* LaunchScreen.storyboard */; };
+		A0063965210F3E8C005634B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0063964210F3E8C005634B7 /* main.m */; };
+		A006396F210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A006396E210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m */; };
+		A006397A210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0063979210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m */; };
+		A0063990210F409D005634B7 /* YICProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A006398F210F409D005634B7 /* YICProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A006396B210F3E8C005634B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A006394A210F3E89005634B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0063951210F3E89005634B7;
+			remoteInfo = TakePhotosAndRecordVideo;
+		};
+		A0063976210F3E8C005634B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A006394A210F3E89005634B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0063951210F3E89005634B7;
+			remoteInfo = TakePhotosAndRecordVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033FEB7AA95D499D3AC1A962 /* Pods-TakePhotosAndRecordVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotosAndRecordVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotosAndRecordVideo/Pods-TakePhotosAndRecordVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		A0063952210F3E89005634B7 /* TakePhotosAndRecordVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhotosAndRecordVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0063955210F3E89005634B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0063956210F3E89005634B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0063958210F3E8A005634B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0063959210F3E8A005634B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A006395C210F3E8A005634B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A006395E210F3E8C005634B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0063961210F3E8C005634B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0063963210F3E8C005634B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0063964210F3E8C005634B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A006396A210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakePhotosAndRecordVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A006396E210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotosAndRecordVideoTests.m; sourceTree = "<group>"; };
+		A0063970210F3E8C005634B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0063975210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakePhotosAndRecordVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0063979210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotosAndRecordVideoUITests.m; sourceTree = "<group>"; };
+		A006397B210F3E8C005634B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0063987210F402C005634B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A006398E210F409D005634B7 /* YICProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YICProgressHUD.h; sourceTree = "<group>"; };
+		A006398F210F409D005634B7 /* YICProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YICProgressHUD.m; sourceTree = "<group>"; };
+		C5E7D28A2FF2391C87FA9C99 /* Pods_TakePhotosAndRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakePhotosAndRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7E8AE8EE008AB222E595BC /* Pods-TakePhotosAndRecordVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotosAndRecordVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotosAndRecordVideo/Pods-TakePhotosAndRecordVideo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A006394F210F3E89005634B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C383AC3A11C0EB5756732B1 /* Pods_TakePhotosAndRecordVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063967210F3E8C005634B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063972210F3E8C005634B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3916D94C2BAE9E7AD98C18E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				033FEB7AA95D499D3AC1A962 /* Pods-TakePhotosAndRecordVideo.debug.xcconfig */,
+				DD7E8AE8EE008AB222E595BC /* Pods-TakePhotosAndRecordVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0063949210F3E89005634B7 = {
+			isa = PBXGroup;
+			children = (
+				A0063954210F3E89005634B7 /* TakePhotosAndRecordVideo */,
+				A006396D210F3E8C005634B7 /* TakePhotosAndRecordVideoTests */,
+				A0063978210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests */,
+				A0063953210F3E89005634B7 /* Products */,
+				3916D94C2BAE9E7AD98C18E8 /* Pods */,
+				B3B2C5BECBD5E5AA4B21799A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0063953210F3E89005634B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0063952210F3E89005634B7 /* TakePhotosAndRecordVideo.app */,
+				A006396A210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.xctest */,
+				A0063975210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0063954210F3E89005634B7 /* TakePhotosAndRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				A006398D210F409D005634B7 /* HUD */,
+				A0063955210F3E89005634B7 /* AppDelegate.h */,
+				A0063956210F3E89005634B7 /* AppDelegate.m */,
+				A0063958210F3E8A005634B7 /* ViewController.h */,
+				A0063959210F3E8A005634B7 /* ViewController.m */,
+				A006395B210F3E8A005634B7 /* Main.storyboard */,
+				A006395E210F3E8C005634B7 /* Assets.xcassets */,
+				A0063960210F3E8C005634B7 /* LaunchScreen.storyboard */,
+				A0063963210F3E8C005634B7 /* Info.plist */,
+				A0063964210F3E8C005634B7 /* main.m */,
+				A0063987210F402C005634B7 /* PrefixHeader.pch */,
+			);
+			path = TakePhotosAndRecordVideo;
+			sourceTree = "<group>";
+		};
+		A006396D210F3E8C005634B7 /* TakePhotosAndRecordVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A006396E210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m */,
+				A0063970210F3E8C005634B7 /* Info.plist */,
+			);
+			path = TakePhotosAndRecordVideoTests;
+			sourceTree = "<group>";
+		};
+		A0063978210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0063979210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m */,
+				A006397B210F3E8C005634B7 /* Info.plist */,
+			);
+			path = TakePhotosAndRecordVideoUITests;
+			sourceTree = "<group>";
+		};
+		A006398D210F409D005634B7 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				A006398E210F409D005634B7 /* YICProgressHUD.h */,
+				A006398F210F409D005634B7 /* YICProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		B3B2C5BECBD5E5AA4B21799A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E7D28A2FF2391C87FA9C99 /* Pods_TakePhotosAndRecordVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0063951210F3E89005634B7 /* TakePhotosAndRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A006397E210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideo" */;
+			buildPhases = (
+				3D40246B838736E9430652B8 /* [CP] Check Pods Manifest.lock */,
+				A006394E210F3E89005634B7 /* Sources */,
+				A006394F210F3E89005634B7 /* Frameworks */,
+				A0063950210F3E89005634B7 /* Resources */,
+				95301519ABFD3E689146C4AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakePhotosAndRecordVideo;
+			productName = TakePhotosAndRecordVideo;
+			productReference = A0063952210F3E89005634B7 /* TakePhotosAndRecordVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0063969210F3E8C005634B7 /* TakePhotosAndRecordVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0063981210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideoTests" */;
+			buildPhases = (
+				A0063966210F3E8C005634B7 /* Sources */,
+				A0063967210F3E8C005634B7 /* Frameworks */,
+				A0063968210F3E8C005634B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A006396C210F3E8C005634B7 /* PBXTargetDependency */,
+			);
+			name = TakePhotosAndRecordVideoTests;
+			productName = TakePhotosAndRecordVideoTests;
+			productReference = A006396A210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0063974210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0063984210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideoUITests" */;
+			buildPhases = (
+				A0063971210F3E8C005634B7 /* Sources */,
+				A0063972210F3E8C005634B7 /* Frameworks */,
+				A0063973210F3E8C005634B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0063977210F3E8C005634B7 /* PBXTargetDependency */,
+			);
+			name = TakePhotosAndRecordVideoUITests;
+			productName = TakePhotosAndRecordVideoUITests;
+			productReference = A0063975210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A006394A210F3E89005634B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhouwei;
+				TargetAttributes = {
+					A0063951210F3E89005634B7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A0063969210F3E8C005634B7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A0063951210F3E89005634B7;
+					};
+					A0063974210F3E8C005634B7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A0063951210F3E89005634B7;
+					};
+				};
+			};
+			buildConfigurationList = A006394D210F3E89005634B7 /* Build configuration list for PBXProject "TakePhotosAndRecordVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0063949210F3E89005634B7;
+			productRefGroup = A0063953210F3E89005634B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0063951210F3E89005634B7 /* TakePhotosAndRecordVideo */,
+				A0063969210F3E8C005634B7 /* TakePhotosAndRecordVideoTests */,
+				A0063974210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0063950210F3E89005634B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0063962210F3E8C005634B7 /* LaunchScreen.storyboard in Resources */,
+				A006395F210F3E8C005634B7 /* Assets.xcassets in Resources */,
+				A006395D210F3E8A005634B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063968210F3E8C005634B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063973210F3E8C005634B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D40246B838736E9430652B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakePhotosAndRecordVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95301519ABFD3E689146C4AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TakePhotosAndRecordVideo/Pods-TakePhotosAndRecordVideo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakePhotosAndRecordVideo/Pods-TakePhotosAndRecordVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A006394E210F3E89005634B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006395A210F3E8A005634B7 /* ViewController.m in Sources */,
+				A0063965210F3E8C005634B7 /* main.m in Sources */,
+				A0063990210F409D005634B7 /* YICProgressHUD.m in Sources */,
+				A0063957210F3E89005634B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063966210F3E8C005634B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006396F210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0063971210F3E8C005634B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006397A210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A006396C210F3E8C005634B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0063951210F3E89005634B7 /* TakePhotosAndRecordVideo */;
+			targetProxy = A006396B210F3E8C005634B7 /* PBXContainerItemProxy */;
+		};
+		A0063977210F3E8C005634B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0063951210F3E89005634B7 /* TakePhotosAndRecordVideo */;
+			targetProxy = A0063976210F3E8C005634B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A006395B210F3E8A005634B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A006395C210F3E8A005634B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0063960210F3E8C005634B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0063961210F3E8C005634B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A006397C210F3E8C005634B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A006397D210F3E8C005634B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A006397F210F3E8C005634B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033FEB7AA95D499D3AC1A962 /* Pods-TakePhotosAndRecordVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0063980210F3E8C005634B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7E8AE8EE008AB222E595BC /* Pods-TakePhotosAndRecordVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0063982210F3E8C005634B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakePhotosAndRecordVideo.app/TakePhotosAndRecordVideo";
+			};
+			name = Debug;
+		};
+		A0063983210F3E8C005634B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakePhotosAndRecordVideo.app/TakePhotosAndRecordVideo";
+			};
+			name = Release;
+		};
+		A0063985210F3E8C005634B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakePhotosAndRecordVideo;
+			};
+			name = Debug;
+		};
+		A0063986210F3E8C005634B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKX5FSG78V;
+				INFOPLIST_FILE = TakePhotosAndRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yryc.TakePhotosAndRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakePhotosAndRecordVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A006394D210F3E89005634B7 /* Build configuration list for PBXProject "TakePhotosAndRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A006397C210F3E8C005634B7 /* Debug */,
+				A006397D210F3E8C005634B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A006397E210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A006397F210F3E8C005634B7 /* Debug */,
+				A0063980210F3E8C005634B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0063981210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0063982210F3E8C005634B7 /* Debug */,
+				A0063983210F3E8C005634B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0063984210F3E8C005634B7 /* Build configuration list for PBXNativeTarget "TakePhotosAndRecordVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0063985210F3E8C005634B7 /* Debug */,
+				A0063986210F3E8C005634B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A006394A210F3E89005634B7 /* Project object */;
+}
