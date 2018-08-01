@@ -17,6 +17,9 @@
 		A006396F210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A006396E210F3E8C005634B7 /* TakePhotosAndRecordVideoTests.m */; };
 		A006397A210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0063979210F3E8C005634B7 /* TakePhotosAndRecordVideoUITests.m */; };
 		A0063990210F409D005634B7 /* YICProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A006398F210F409D005634B7 /* YICProgressHUD.m */; };
+		A0208F43210FEF2B004E53D2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0208F42210FEF2B004E53D2 /* Utils.m */; };
+		A0208F46210FFE98004E53D2 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0208F45210FFE98004E53D2 /* UIImage+Utils.m */; };
+		A0208F49211004D5004E53D2 /* RecordVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0208F48211004D5004E53D2 /* RecordVideoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		A0063987210F402C005634B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A006398E210F409D005634B7 /* YICProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YICProgressHUD.h; sourceTree = "<group>"; };
 		A006398F210F409D005634B7 /* YICProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YICProgressHUD.m; sourceTree = "<group>"; };
+		A0208F41210FEF2B004E53D2 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A0208F42210FEF2B004E53D2 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A0208F44210FFE98004E53D2 /* UIImage+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		A0208F45210FFE98004E53D2 /* UIImage+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		A0208F47211004D5004E53D2 /* RecordVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordVideoManager.h; sourceTree = "<group>"; };
+		A0208F48211004D5004E53D2 /* RecordVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordVideoManager.m; sourceTree = "<group>"; };
 		C5E7D28A2FF2391C87FA9C99 /* Pods_TakePhotosAndRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakePhotosAndRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7E8AE8EE008AB222E595BC /* Pods-TakePhotosAndRecordVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotosAndRecordVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotosAndRecordVideo/Pods-TakePhotosAndRecordVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +135,12 @@
 				A0063956210F3E89005634B7 /* AppDelegate.m */,
 				A0063958210F3E8A005634B7 /* ViewController.h */,
 				A0063959210F3E8A005634B7 /* ViewController.m */,
+				A0208F47211004D5004E53D2 /* RecordVideoManager.h */,
+				A0208F48211004D5004E53D2 /* RecordVideoManager.m */,
+				A0208F41210FEF2B004E53D2 /* Utils.h */,
+				A0208F42210FEF2B004E53D2 /* Utils.m */,
+				A0208F44210FFE98004E53D2 /* UIImage+Utils.h */,
+				A0208F45210FFE98004E53D2 /* UIImage+Utils.m */,
 				A006395B210F3E8A005634B7 /* Main.storyboard */,
 				A006395E210F3E8C005634B7 /* Assets.xcassets */,
 				A0063960210F3E8C005634B7 /* LaunchScreen.storyboard */,
@@ -349,6 +364,9 @@
 				A006395A210F3E8A005634B7 /* ViewController.m in Sources */,
 				A0063965210F3E8C005634B7 /* main.m in Sources */,
 				A0063990210F409D005634B7 /* YICProgressHUD.m in Sources */,
+				A0208F46210FFE98004E53D2 /* UIImage+Utils.m in Sources */,
+				A0208F43210FEF2B004E53D2 /* Utils.m in Sources */,
+				A0208F49211004D5004E53D2 /* RecordVideoManager.m in Sources */,
 				A0063957210F3E89005634B7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -507,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -520,8 +538,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TKX5FSG78V;
+				DEVELOPMENT_TEAM = 44HU6MVQN2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TakePhotosAndRecordVideo/PrefixHeader.pch";
 				INFOPLIST_FILE = TakePhotosAndRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,8 +558,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TKX5FSG78V;
+				DEVELOPMENT_TEAM = 44HU6MVQN2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TakePhotosAndRecordVideo/PrefixHeader.pch";
 				INFOPLIST_FILE = TakePhotosAndRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

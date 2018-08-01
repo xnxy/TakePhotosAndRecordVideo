@@ -20,4 +20,11 @@
 #import <BlocksKit/BlocksKit.h>
 #import <BlocksKit/BlocksKit+UIKit.h>
 
+#import "YICProgressHUD.h"
+#import "Utils.h"
+
+//weak
+#define WeakObj(obj) __weak typeof(obj) obj##Weak = obj;
+#define StrongObj(obj) __strong __typeof(obj) obj##Strong =obj;
+
 #endif /* PrefixHeader_pch */
